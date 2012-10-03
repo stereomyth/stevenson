@@ -1,7 +1,7 @@
 ---
 layout: post
 title :  Dear Esther
-categories : gameplay
+categories : games
 ---
 sad game is sad ... 
 
