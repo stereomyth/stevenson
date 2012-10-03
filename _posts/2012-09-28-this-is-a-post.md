@@ -1,7 +1,7 @@
 ---
 layout: post
 title :  Borderlands mofo!
-categories : 303
+category : 303
 ---
 this is the gunzerker 
 
