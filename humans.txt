@@ -1,0 +1,18 @@
+# For those of you with a less silicon based personality
+# humanstxt.org
+
+
+# TEAM
+
+    James King -- Everything -- @sorakasumi
+
+# THANKS
+
+    Florian Brueckner and Saul Hardman
+      - For simultaniously recommending jekyll with an hour of each other.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, SASS
+    Jekyll, HTML5BP

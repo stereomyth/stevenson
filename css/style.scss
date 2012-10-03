@@ -1,0 +1,115 @@
+@import "sass/normalize";
+
+/*  ==========================================================================
+		Mobile / All Styles
+    ==========================================================================  */
+
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+body {
+	//background:#ddd;
+}
+#wrapper{
+		
+}
+#leftCol,#rightCol,header{
+    width:100%;
+}
+article, footer{	
+		border:1px solid gray;
+		margin: 12px;
+		p, h1, h2, h3{
+			padding:0 24px;
+		}
+		img{
+			max-width:100%;
+		}
+	}
+header{	
+	overflow:auto;
+	padding: 0px 12px;
+	a, a:visited{
+		color:white;
+		background:black;
+		text-decoration:none;
+		display:block;
+		padding:4px 8px;
+		margin: 0 24px 12px 0;
+		float:left;
+	}
+	a:hover{
+		background:orange;
+	}
+}
+#brand{
+	color:white;
+	background:black;
+	font-size:3em;
+	padding:12px 24px;
+}
+
+/*  ==========================================================================
+		Tablet Styles
+    ==========================================================================  */
+
+@media only screen and (min-width: 480px) {
+	
+}
+
+/*  ==========================================================================
+		Screen Styles
+    ==========================================================================  */
+
+@media only screen and (min-width: 900px) {
+    #wrapper{
+		max-width:1300px;
+		margin:44px auto;
+		padding:0px 24px;
+	}
+	#leftCol{
+		float:left;
+		width:30%;
+		overflow:auto;
+	}
+	#rightCol{
+		float:left;
+		width:69%;
+		overflow:auto;
+	}
+	article, footer{	
+		border:1px solid gray;
+		margin: 24px 0px;
+		p, h1, h2, h3{
+			padding:0 36px;
+		}
+	}
+	header{	
+		float:right;
+		max-width:400px;
+		min-width:386px;
+		width:100%;
+		ul{
+			float:right;
+		}
+		a{
+			float:right;
+		}
+		a:hover{
+			background:orange;
+		}
+	}
+	#brand{
+		float:right;
+		margin-right:24px;
+
+	}
+	
+}
+
+
+
+@import "sass/normalize2";

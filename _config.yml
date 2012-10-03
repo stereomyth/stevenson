@@ -1,0 +1,16 @@
+destination: ./_site/
+pygments:    true
+permalink:   none
+include: [.htaccess]
+exclude: [sass, style.scss, readme.md]
+
+author :
+  name : James King
+  email : j@lostwith.me
+  github : sorakasumi
+  twitter : sorakasumi
+
+baseurl: 
+url: http://lostwith.me
+
+markdown: rdiscount
