@@ -1,8 +1,7 @@
-destination: ./_site/
 pygments:    true
 permalink:   none
-include: [.htaccess]
-exclude: [sass, style.scss, readme.md]
+include: [".htaccess"]
+exclude: [sass, style.scss, readme.md, config.rb]
 
 author :
   name : James King

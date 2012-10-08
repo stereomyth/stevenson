@@ -1,7 +1,7 @@
 ---
 layout: post
 title :  Dear Esther
-category : games
+category : ephemera
 ---
 sad game is sad ... 
 
