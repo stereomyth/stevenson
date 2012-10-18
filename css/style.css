@@ -551,6 +551,62 @@ textarea {
 }
 
 /*  ==========================================================================
+		Typograohical
+    ==========================================================================  */
+p, h1, h2, h3, h4, h5, h6 {
+  padding: 0 60px;
+  margin: 28px 0;
+}
+
+p {
+  font-family: "minion-pro-1", "minion-pro-2", serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h6 {
+  font-family: "minion-pro-1", "minion-pro-2", serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.postTitle a {
+  font-family: "private-sans-web-1", "private-sans-web-2", sans-serif;
+  color: red;
+  font-size: 36px;
+  border: none;
+}
+.postTitle a:hover {
+  border: none;
+  color: orange;
+}
+
+p.postMeta {
+  font-style: italic;
+  font-size: 16px;
+  text-align: right;
+  margin: 20px 0;
+}
+
+p:empty {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+  color: red;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+a:hover {
+  border-bottom: 1px dotted black;
+}
+
+/*  ==========================================================================
 		Mobile / All Styles
     ==========================================================================  */
 * {
@@ -571,7 +627,7 @@ body {
 
 article {
   background: white;
-  padding-bottom: 20px;
+  padding-bottom: 1px;
   margin-bottom: 36px;
 }
 article .postHead {
@@ -583,14 +639,7 @@ article h2.postTitle {
 }
 article img {
   max-width: 100%;
-}
-article p, article h1, article h2, article h3, article h4, article h5, article h6 {
-  padding: 0 60px;
-  margin: 32px 0;
-}
-
-a {
-  text-decoration: none;
+  min-width: 100%;
 }
 
 header {

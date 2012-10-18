@@ -1,9 +1,10 @@
 ---
 layout: post
 title : From Jpegs to Giants
-category : 304
+category : Venture Culture
 featured : gunz.png
 featuredAlt : help?
+published: false
 ---
 The strip features Krahulik and Holkins' cartoon alter egos, John "Gabe" Gabriel and Tycho Brahe, respectively. While often borrowing from the authors' experiences, Holkins and Krahulik do not treat them as literal avatars or caricatures of themselves.[7] The two characters spend much of their time playing and commenting on computer and video games, which forms the basis of the humor in the strip. Most of the time Gabe serves the purpose of the comic and Tycho the comic foil. The strip can feature in-jokes that are explained in the news posts accompanying each comic, written by the authors.
 

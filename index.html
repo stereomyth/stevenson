@@ -12,9 +12,8 @@ layout: default
 
 
 				
-	<p>{{ post.content }}</p>
-	<h6>{{ post.category }}</h6>		
-	<h6>{{ post.date | date: "%B, %Y" }}</h6>	
+	{{ post.content }}
+	<p class="postMeta">...written in <strong>{{ post.date | date: "%B, %Y" }}</strong> and categorised as <strong>{{ post.category }}</strong>.</p>	
 </article>
 	
 {% endfor %}

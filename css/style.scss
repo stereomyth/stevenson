@@ -3,12 +3,69 @@
     ==========================================================================  */
 
 $select-colour:#b3d4fc;
+$headingStack:"private-sans-web-1","private-sans-web-2", sans-serif;
+$bodyStack:"minion-pro-1","minion-pro-2", serif;
 
 @import "sass/normalize";
 @import "sass/h5bp";
 @import "sass/mixins";
 @import "compass";
 
+/*  ==========================================================================
+		Typograohical
+    ==========================================================================  */
+
+   
+    h1 {
+
+    }
+    p,h1,h2,h3,h4,h5,h6{
+		padding:0 60px;
+		margin: 28px 0;
+	}
+    p{
+    	font-family: $bodyStack;
+    	font-size: 18px;
+    	line-height:28px;
+    }
+    h6{
+    	font-family: $bodyStack;
+    	font-size: 16px;
+    	font-style:italic;
+    	font-weight:400;
+    }
+    .postTitle{
+    	a{
+    		font-family:$headingStack;
+    		color:red;
+    		font-size:36px;
+    		border:none;
+    		&:hover{
+    			border:none;
+    			color:orange;
+    		}
+    	}
+    	
+    }
+    p.postMeta{
+    	font-style:italic;
+    	font-size:16px;
+    	text-align:right;
+    	margin:20px 0;
+    }
+    p:empty{
+    	display:none;
+    }
+    a{
+    	text-decoration:none;
+    	border-bottom:1px dotted hsla(0,0,0,0.3);
+    	color: red;
+    	@include transition(all 0.2s);
+    	&:hover{
+    		border-bottom:1px dotted hsla(0,0,0,1);
+    	}
+    }
+   
 
 /*  ==========================================================================
 		Mobile / All Styles
@@ -17,6 +74,9 @@ $select-colour:#b3d4fc;
 * { @include border-box; }
 	
 body{
+	
+	// font-weight:700;
+	// font-style:italic;
 	margin:auto;
 	padding:12px;
 	max-width:732px;
@@ -27,7 +87,7 @@ body{
 }
 article{
 	background:white;
-	padding-bottom:20px;
+	padding-bottom:1px;
 	margin-bottom:36px;
 	.postHead{
 		background:#ddd;
@@ -39,19 +99,11 @@ article{
 	}
 	img{
 		max-width:100%;
-	}
-	p,h1,h2,h3,h4,h5,h6{
-		padding:0 60px;
-		margin: 32px 0;
+		min-width:100%;
 	}
 }
 
-a{
-	text-decoration:none;
-}
-p, h1, h2, h3{
-	//padding:0 64px;
-}	
+	
 
 header{	
 	overflow:auto;
