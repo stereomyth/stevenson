@@ -2,7 +2,7 @@
 layout: post
 title :  Borderlands mofo!
 category : Gameplay
-published: true
+published: false
 ---
 this is the gunzerker 
 
