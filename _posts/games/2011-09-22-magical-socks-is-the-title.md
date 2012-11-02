@@ -1,7 +1,8 @@
 ---
 layout: post
-title : Magical Socks 
-category : Ephemera
+title: Socks and Dreams
+categories : [Ephemera, Videogames]
+featured : posts/epic-yarn.jpg
 ---
 After interrogating child molesters and dissecting subterranean abominations having to escape a magic sock seems about as disparate as physics could allow. 
 

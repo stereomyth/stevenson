@@ -3,7 +3,7 @@
     ==========================================================================  */
 
 $select-colour:#b3d4fc;
-$headingStack:"private-sans-web-1","private-sans-web-2", sans-serif;
+$headingStack:"jaf-lapture-1","jaf-lapture-2", sans-serif;
 $bodyStack:"minion-pro-1","minion-pro-2", serif;
 
 @import "sass/normalize";
@@ -11,140 +11,83 @@ $bodyStack:"minion-pro-1","minion-pro-2", serif;
 @import "sass/mixins";
 @import "compass";
 
+* { @include border-box; }
+
 /*  ==========================================================================
 		Typograohical
     ==========================================================================  */
 
-   
-    h1 {
+    $linkColour:red;
+
+    body{
+        font-family: $bodyStack;
+        background: blue;
+    }    
+    a{
+        text-decoration:none;
+        color:$linkColour;
+    }
+    #brand h1{
+        font-family: $headingStack;
+        font-size:164px;
+        margin:0px;
+        //line-height:50px;
+        font-weight:normal;
 
     }
-    p,h1,h2,h3,h4,h5,h6{
-		padding:0 60px;
-		margin: 28px 0;
-	}
-    p{
-    	font-family: $bodyStack;
-    	font-size: 16px;
-    	line-height:28px;
-    }
-    h6{
-    	font-family: $bodyStack;
-    	font-size: 16px;
-    	font-style:italic;
-    	font-weight:400;
+    article{
+        p{
+            line-height:28px;
+        }
     }
     .postTitle{
-    	a{
-    		font-family:$headingStack;
-    		color:red;
-    		font-size:36px;
-    		border:none;
-    		&:hover{
-    			border:none;
-    			color:orange;
-    		}
-    	}
-    	
+        font-family: $headingStack;
+        font-size:44px;
+        line-height:34px;
+        font-weight:normal;
     }
-    p.postMeta{
-    	font-style:italic;
-    	font-size:16px;
-    	text-align:right;
-    	margin:20px 0;
+    .postMeta{
+        font-style:italic;
+        float:right;
     }
-    p:empty{
-    	display:none;
-    }
-    a{
-    	text-decoration:none;
-    	border-bottom:1px dotted hsla(0,0,0,0.3);
-    	color: red;
-    	@include transition(all 0.2s);
-    	&:hover{
-    		border-bottom:1px dotted hsla(0,0,0,1);
-    	}
-    }
-   
 
 /*  ==========================================================================
 		Mobile / All Styles
     ==========================================================================  */
 
-* { @include border-box; }
-	
-body{
-	
-	// font-weight:700;
-	// font-style:italic;
-	margin:auto;
-	padding:12px;
-	max-width:732px;
-}
-
-#leftCol,#rightCol,header{
-    width:100%;
-}
-article{
-	background:white;
-	padding-bottom:1px;
-	margin-bottom:36px;
-	.postHead{
-		background:#ddd;
-	}	
-	h2.postTitle{
-		margin:0;
-		padding:36px 60px;
-		//text-transform:uppercase;
-	}
-	img{
-		max-width:100%;
-		min-width:100%;
-	}
-}
 
 	
+    body{    
+        margin:auto;
+        padding:12px;
+        max-width:732px;
+    }
 
-header{	
-	overflow:auto;
-	//padding: 0px 12px;
-	ul{
-		margin:0;
-		padding:0;
-	}
+    nav{
+        
+        ul{
+            overflow:auto;
+            padding:0;
+        }
+        li{
+            float:left;
+            padding-right:24px;
+        }
+    }
 
+    article{
+        overflow:auto;
+    	padding-bottom:1px;
+    	margin-bottom:80px;
+    	img{
+    		max-width:100%;
+    		min-width:100%;
+    	}
+        
+    }
 
-	a{
-		color:white;
-		padding:4px 8px;
-		background:black;
-		text-decoration:none;
-		display:block;
-		float:left;		
-		margin: 12px 24px 12px 0;
-		
-	}
-	li:last-child{
-		a{
-			margin-right:0px;
-		}
-		
-	}
-	a:hover{
-		background:orange;
-	}
-}
-#brand{
-	color:white;
-	background:black;
-	font-size:2em;
-	padding:12px 24px;
-	text-align:center;
-	h1{
-		margin:0;
+	
 
-	}
-}
 
 /*  ==========================================================================
 		Tablet Styles
@@ -158,51 +101,7 @@ header{
 		Screen Styles
     ==========================================================================  */
 
-// @media only screen and (min-width: 900px) {
-//     body{
-// 		max-width:1300px;
-// 		margin:44px auto;
-// 		padding:0px 24px;
-// 	}
-// 	#leftCol{
-// 		float:left;
-// 		width:30%;
-// 		overflow:auto;
-// 	}
-// 	#rightCol{
-// 		float:left;
-// 		width:69%;
-// 		overflow:auto;
-// 	}
-// 	article, footer{	
-		
-// 		margin: 24px 0px;
-// 		p, h1, h2, h3{
-// 			padding:0 36px;
-// 		}
-// 	}
-// 	header{	
-// 		float:right;
-// 		max-width:400px;
-// 		min-width:386px;
-// 		width:100%;
-// 		ul{
-// 			float:right;
-// 		}
-// 		a{
-// 			float:right;
-// 		}
-// 		a:hover{
-// 			background:orange;
-// 		}
-// 	}
-// 	#brand{
-// 		float:right;
-// 		margin-right:24px;
 
-// 	}
-	
-// }
 
 
 

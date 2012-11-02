@@ -1,8 +1,8 @@
 ---
 layout: post
 title :  Dear Esther
-category : Ephemera
-published: false
+categories : [Ephemera, Videogames]
+published: true
 ---
 sad game is sad ... 
 

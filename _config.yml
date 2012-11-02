@@ -1,5 +1,5 @@
 pygments:    true
-permalink:   /:categories/:title/
+permalink:   /p/:title/
 include: [".htaccess"]
 exclude: [sass, style.scss, readme.md, config.rb]
 
@@ -11,5 +11,6 @@ author :
 
 baseurl: 
 url: http://lostwith.me
+category_dir: /c/
 
 markdown: rdiscount

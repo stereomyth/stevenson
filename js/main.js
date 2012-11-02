@@ -7,9 +7,9 @@ $(function () {
 	var rand = Math.floor(Math.random()*3);
 	var colour = '#'+colours[rand]
 
-	console.debug("numebr is: " + rand + " colour is: " + colour);
+	//console.debug("numebr is: " + rand + " colour is: " + colour);
 
-	$('html').css('background', colour);
+	//$('html').css('background', colour);
 
 
 });

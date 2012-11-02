@@ -1,7 +1,8 @@
 ---
 layout: post
 title : Fear and Amnesia 
-category : Ephemera
+categories : [Ephemera, Videogames]
+featured : posts/amnesia.png
 ---
 Fear, it would seem often arises from vulnerability. Videogames, so often tools of empowerment, tend to struggle with this. Dead Space may be an incredible game but when armed with projecting devices of precision flesh separation can you ever really be afraid?
 

@@ -550,130 +550,74 @@ textarea {
   padding: 0.2em 0;
 }
 
-/*  ==========================================================================
-		Typograohical
-    ==========================================================================  */
-p, h1, h2, h3, h4, h5, h6 {
-  padding: 0 60px;
-  margin: 28px 0;
-}
-
-p {
-  font-family: "minion-pro-1", "minion-pro-2", serif;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-h6 {
-  font-family: "minion-pro-1", "minion-pro-2", serif;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 400;
-}
-
-.postTitle a {
-  font-family: "private-sans-web-1", "private-sans-web-2", sans-serif;
-  color: red;
-  font-size: 36px;
-  border: none;
-}
-.postTitle a:hover {
-  border: none;
-  color: orange;
-}
-
-p.postMeta {
-  font-style: italic;
-  font-size: 16px;
-  text-align: right;
-  margin: 20px 0;
-}
-
-p:empty {
-  display: none;
-}
-
-a {
-  text-decoration: none;
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
-  color: red;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-a:hover {
-  border-bottom: 1px dotted black;
-}
-
-/*  ==========================================================================
-		Mobile / All Styles
-    ==========================================================================  */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/*  ==========================================================================
+		Typograohical
+    ==========================================================================  */
+body {
+  font-family: "minion-pro-1", "minion-pro-2", serif;
+  background: blue;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+#brand h1 {
+  font-family: "jaf-lapture-1", "jaf-lapture-2", sans-serif;
+  font-size: 164px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+article p {
+  line-height: 28px;
+}
+
+.postTitle {
+  font-family: "jaf-lapture-1", "jaf-lapture-2", sans-serif;
+  font-size: 44px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.postMeta {
+  font-style: italic;
+  float: right;
+}
+
+/*  ==========================================================================
+		Mobile / All Styles
+    ==========================================================================  */
 body {
   margin: auto;
   padding: 12px;
   max-width: 732px;
 }
 
-#leftCol, #rightCol, header {
-  width: 100%;
+nav ul {
+  overflow: auto;
+  padding: 0;
+}
+nav li {
+  float: left;
+  padding-right: 24px;
 }
 
 article {
-  background: white;
+  overflow: auto;
   padding-bottom: 1px;
-  margin-bottom: 36px;
-}
-article .postHead {
-  background: #ddd;
-}
-article h2.postTitle {
-  margin: 0;
-  padding: 36px 60px;
+  margin-bottom: 80px;
 }
 article img {
   max-width: 100%;
   min-width: 100%;
-}
-
-header {
-  overflow: auto;
-}
-header ul {
-  margin: 0;
-  padding: 0;
-}
-header a {
-  color: white;
-  padding: 4px 8px;
-  background: black;
-  text-decoration: none;
-  display: block;
-  float: left;
-  margin: 12px 24px 12px 0;
-}
-header li:last-child a {
-  margin-right: 0px;
-}
-header a:hover {
-  background: orange;
-}
-
-#brand {
-  color: white;
-  background: black;
-  font-size: 2em;
-  padding: 12px 24px;
-  text-align: center;
-}
-#brand h1 {
-  margin: 0;
 }
 
 /*  ==========================================================================
