@@ -1,7 +1,7 @@
 pygments:    true
 permalink:   /p/:title/
 include: [".htaccess"]
-exclude: [sass, style.scss, readme.md, config.rb]
+exclude: [sass, style.scss, readme.md, config.rb, .less]
 
 author :
   name : James King

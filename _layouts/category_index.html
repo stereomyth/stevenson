@@ -8,7 +8,7 @@ layout: default
 			
 <article>	
 	{% if post.featured %}
-		<a href="{{post.url}}"><img class="featuredImage" src="img/{{ post.featured }}" {% if post.featured %}alt="{{ post.featuredAlt }}"{% endif %}></a>
+		<a href="{{post.url}}"><img class="featuredImage" src="/img/{{ post.featured }}" {% if post.featured %}alt="{{ post.featuredAlt }}"{% endif %}></a>
 	{% endif %}
 
 	{% if post.type != "single" %}
@@ -19,7 +19,7 @@ layout: default
 
 				
 	{{ post.content }}
-	<p class="postMeta">...written in <strong>{{ post.date | date: "%B, %Y" }}</strong> and categorised as {{ post.categories | category_links }}.</p>	
+	<p class="postMeta clearfix">...written in <strong>{{ post.date | date: "%B, %Y" }}</strong> and categorised as {{ post.categories | category_links }}.</p>	
 </article>
 	
 

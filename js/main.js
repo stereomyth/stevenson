@@ -1,15 +1,8 @@
-/* Author:
 
-*/
-$(function () {
-	
-	var colours = new Array("76d292","76acd2","d2aa76");
-	var rand = Math.floor(Math.random()*3);
-	var colour = '#'+colours[rand]
+//@codekit-prepend "jquery.min.js"
 
-	//console.debug("numebr is: " + rand + " colour is: " + colour);
+$(document).ready(function () {
 
-	//$('html').css('background', colour);
-
+	console.log("poop");
 
 });

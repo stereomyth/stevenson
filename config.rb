@@ -24,4 +24,4 @@ javascripts_dir = "js"
 preferred_syntax = :scss
 
 
-output_style = :expanded # by Fire.app 
+output_style = :compact

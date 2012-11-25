@@ -1,90 +1,124 @@
-/*  ==========================================================================
-		Variables and imports
-    ==========================================================================  */
-
 $select-colour:#b3d4fc;
 $headingStack:"jaf-lapture-1","jaf-lapture-2", sans-serif;
 $bodyStack:"minion-pro-1","minion-pro-2", serif;
 
-@import "sass/normalize";
-@import "sass/h5bp";
-@import "sass/mixins";
+@import "normalize";
+@import "h5bp";
+@import "mixins";
 @import "compass";
 
 * { @include border-box; }
 
-/*  ==========================================================================
-		Typograohical
-    ==========================================================================  */
 
     $linkColour:red;
 
-    body{
-        font-family: $bodyStack;
-        background: blue;
-    }    
-    a{
-        text-decoration:none;
-        color:$linkColour;
-    }
-    #brand h1{
-        font-family: $headingStack;
-        font-size:164px;
-        margin:0px;
-        //line-height:50px;
-        font-weight:normal;
-
-    }
-    article{
-        p{
-            line-height:28px;
-        }
-    }
-    .postTitle{
-        font-family: $headingStack;
-        font-size:44px;
-        line-height:34px;
-        font-weight:normal;
-    }
-    .postMeta{
-        font-style:italic;
-        float:right;
-    }
+    
+    
 
 /*  ==========================================================================
 		Mobile / All Styles
     ==========================================================================  */
+    
+body {
 
+    font-family: $bodyStack;
+    margin: auto;
+    padding: 12px;
+    max-width: 732px;
 
-	
-    body{    
-        margin:auto;
-        padding:12px;
-        max-width:732px;
+}
+
+a {
+
+    text-decoration: none;
+    color: $linkColour;
+
+}
+
+nav { 
+  
+    ul {
+
+        overflow: auto;
+        padding: 0;
+    
     }
 
-    nav{
-        
-        ul{
-            overflow:auto;
-            padding:0;
-        }
-        li{
-            float:left;
-            padding-right:24px;
-        }
+    li {
+
+        float: left;
+        padding-right: 24px;
+
     }
 
-    article{
-        overflow:auto;
-    	padding-bottom:1px;
-    	margin-bottom:80px;
-    	img{
-    		max-width:100%;
-    		min-width:100%;
-    	}
-        
+}
+
+article {
+
+    overflow: auto;
+    margin: 80px 0;
+    
+    p {
+
+        line-height: 28px;
+    
     }
+    
+    img {
+
+      max-width: 100%;
+      min-width: 100%;
+    
+    }
+    
+    &:first-of-type {
+
+        margin-top: 24px;
+    
+    }        
+}
+
+#brand h1 {
+
+    font-family: $headingStack;
+    font-size: 64px;
+    margin: 0px;
+    //line-height: 50px; 
+    font-weight: normal;
+
+}
+
+.featuredImage {
+
+    margin-bottom: 24px;
+
+}
+
+.postTitle {
+
+    font-family: $headingStack;
+    font-size: 44px;
+    //line-height: 34px;
+    font-weight: normal;
+    //margin-top: 0px; 
+    margin: 0 0 16px 0;
+
+}
+
+.postMeta {
+
+    font-style: italic;
+    float: right;
+    margin-bottom: 0;
+
+}
+
+hr {
+
+    border-style: dashed;
+    margin: 0;
+
+}
 
 	
 
@@ -105,4 +139,4 @@ $bodyStack:"minion-pro-1","minion-pro-2", serif;
 
 
 
-@import "sass/h5bp2";
+@import "h5bp2";
