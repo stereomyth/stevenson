@@ -7,4 +7,4 @@ Alice’s Adventure in Wonderland is one of those influential and often overused
 
 Wonderland may be a dark place inhabited by slime draped doll-limb aberrations, but the London of this cannon is all the more sinister. Without the knowledge of the recommended age rating I was quite surprised by the use of language; having never been called a cum-bucket by a game before. This unexpected ferociousness, especially for something spawned from a children’s book, helped to enhance the unease conveyed by the “real” world.
 
-The name Spicy Horse is an interesting choice for a company based in China. While eating horse meat is generally acceptable it has an undeserved reputation for tasting bad or even being poisonous. Of course the iPhone development child studio has the logically perfect name Spicy Pony.
+Also I love the fact that [Spicy Horse's](http://www.spicyhorse.com/) iPhone development child studio has the logically perfect name Spicy Pony.
