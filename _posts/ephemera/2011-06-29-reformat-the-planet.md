@@ -1,8 +1,8 @@
 ---
 layout: post
-category : Ephemera
+category : Miscellany
 featured : posts/reformat.png
-title: Reformat the Planet avaliable on PATV
+title: Reformat the Planet
 ---
 2 Player Production’s début project Reformat the Planet is an energetic but insightful look into the origin of the now annual Blip Festival and the chiptune scene in general.
 

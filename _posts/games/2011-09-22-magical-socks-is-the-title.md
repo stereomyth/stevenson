@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Socks and Dreams
-categories : [Ephemera, Videogames]
+categories : [Videogames, Miscellany]
 featured : posts/epic-yarn.jpg
 ---
 After interrogating child molesters in LA Noire and dissecting subterranean abominations in Gears of War having to escape a magic sock seems about as disparate as physics could allow. 

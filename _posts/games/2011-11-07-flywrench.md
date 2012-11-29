@@ -1,6 +1,6 @@
 ---
 layout: post
-categories : [Ephemera, Videogames]
+categories : [Videogames, Miscellany]
 featured : posts/flywrench.gif
 ---
 Infinite lives, 2d perspective and a requisite for incredible precision are the hallmarks of the relatively new niche genre portmanteauically dubbed [Masocore](http://www.giantbomb.com/masocore/92-1165/). Games like N+ and Super Meat Boy ask much of the player. Unlike the ‘failure equals loss of progression’ punishment of say a Demon’s Souls, Masocore respawns you moments from when you died. Infinite death and instant rebirth until you perfect that complex jump or otherwise destroy the controller.  

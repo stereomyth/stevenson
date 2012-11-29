@@ -1,7 +1,7 @@
 ---
 layout: post
 title : "Penny Arcade Adventures"
-categories : [Ephemera, Videogames]
+categories : [Videogames, Miscellany]
 featured : posts/paa.png
 ---
 In the running for the longest game title: "Penny Arcade Adventures: On the Rain-Slick Precipice of Darkness - Episodes 1 & 2" (or PAA:OTRSPOD if you will) is an offensive and Lovecraftian semi turn-based RPG point and click adventure game from the “jpeg merchants” 

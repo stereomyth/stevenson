@@ -3,15 +3,20 @@ layout: default
 ---
 <article>
 	{% if page.featured %}
-		<a href="{{page.url}}"><img class="featuredImage" src="/img/{{ page.featured }}" {% if page.featured %}alt="{{ page.featuredAlt }}"{% endif %}></a>
+		<img class="featuredImage" src="/img/{{ page.featured }}" {% if page.featured %}alt="{{ page.featuredAlt }}"{% endif %}>
 	{% endif %}
 	
 	<div class="postHead">
 		{% if page.title %}
-			<h2 class="postTitle"><a href="{{page.url}}">{{ page.title }}</a></h2>
+			<h2 class="postTitle">{{ page.title }}</h2>
 		{% endif %}
 	</div>	
 				
 	{{ content }}
 	<p class="postMeta">...written in <strong>{{ page.date | date: "%B, %Y" }}</strong> and categorised as {{ page.categories | category_links }}.</p>	
+
+	<div style="clear:both">{% include next.html %}</div>
+
+	
+
 </article>

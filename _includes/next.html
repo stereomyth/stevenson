@@ -1,0 +1,28 @@
+	{% assign cat1 = page.categories[0] %}
+
+	{% for post in site.categories[cat1] %}
+
+		{% if post.url == page.url %}
+
+			{% assign nextPost = forloop.index0 %}
+			{% assign prevPost = forloop.index %}
+
+		{% endif %}
+
+	{% endfor %}
+
+	{% for post in site.categories[cat1] %}
+
+		{% if nextPost == forloop.index %}
+
+			<p style="float:right"><a href="{{ post.url }}"> next: {{ post.title }} </a></p>
+
+		{% endif %}
+
+		{% if prevPost == forloop.index0 %}
+
+			<p style="float:left"><a href="{{ post.url }}"> previous: {{ post.title }} </a></p>
+
+		{% endif %}
+
+	{% endfor %}

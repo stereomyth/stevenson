@@ -1,7 +1,8 @@
 ---
 layout: post
-category : Ephemera
+category : Design
 featured : posts/oil-and-water.jpg
+
 ---
 I realise this is not exactly current news, but I just found this image in my ‘sort’ folder and decided it was interesting enough to post nearly a year later. 
 

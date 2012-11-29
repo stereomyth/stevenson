@@ -1,6 +1,6 @@
 ---
 layout: post
-categories : [Ephemera, Videogames]
+categories : [Videogames, Miscellany]
 featured : posts/alice-madness.jpg
 ---
 Alice’s Adventure in Wonderland is one of those influential and often overused modern legend that seemingly everyone knows. Sitting among the pantheon of comic book heroes and famous literary characters that constitute our modern mythologies. Alice has been adapted and reused almost as many times as Spiderman or Dracula. The American McGee games have the interesting spin that the fractured heroine only believes she is the eponymous Alice after her family perish in a house fire.

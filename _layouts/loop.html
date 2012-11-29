@@ -1,0 +1,58 @@
+---
+
+layout : default
+
+---
+
+{{ content }}
+
+{% for post in site.posts %}		
+			
+<article>	
+
+	{% if post.featured %}
+
+		{% if post.type == 'long' %}<a href="{{post.url}}">{% endif %}
+
+				<img class="featuredImage" src="/img/{{ post.featured }}" {% if post.featured %} alt="{{ post.featuredAlt }}" {% endif %}>
+
+		{% if post.type == 'long' %}</a>{% endif %}
+
+	{% endif %}
+
+	{% if post.type != 'single' %}
+		
+		<h2 class="postTitle">
+
+			{% if post.type == 'long' %} <a href="{{post.url}}">{% endif %}
+
+				{{ post.title }}</a></h2>		
+
+			{% if post.type == 'long' %}</a>{% endif %}
+
+	
+	{% endif %}
+
+	{{ post.content }}
+
+	<p class="postMeta">
+
+		{% if post.type == 'single' %}
+
+			...posted
+
+		{% else %}
+
+	  		...written
+
+		{% endif %}
+
+		in <strong>{{ post.date | date: "%B, %Y" }}</strong> and categorised as {{ post.categories | category_links }}.
+
+	</p>
+
+</article>
+
+<hr>
+
+{% endfor %}
